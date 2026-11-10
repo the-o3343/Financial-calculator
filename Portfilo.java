@@ -3,7 +3,7 @@ public class Portfilo {
         System.out.println("This is a portfolio; a financial calculator. The purpose of this program is to creat a accurate calculation of one's income, and understand the money they spend on each category. It also suggests when a category spent too much using booluain operations to suggest if someone is spending to much omney based on the imcome of their expenses ");
 
     String name = "Josh";
-    String address = "143 randomstreet ave vancouver, WA 98644";
+    String address = "143 randomstreet ave Vancouver, WA 98644";
     int age = 35;
     double monthlyIcome = 1034.54;
     double taxRate = 0.22;
@@ -15,7 +15,6 @@ public class Portfilo {
     double leftOver = netIcome -totalExpenses;
 
     System.out.println("heelo josh, here is your monthly spending");
-
         System.out.println("name:" +name);
         System.out.println("age: " + age);
         System.out.println("address: " +address);
@@ -29,6 +28,7 @@ public class Portfilo {
         System.out.println("Electricity bill: " + electricityBill);
         System.out.println("Car insurance: " +carInsurance);
         System.out.println("Startbucks: " + startbucks);
+        
         System.out.println("total expense " + totalExpenses);
         System.out.println( "left over: " + leftOver);
 
